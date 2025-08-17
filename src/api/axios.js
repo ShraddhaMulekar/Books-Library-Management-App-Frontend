@@ -1,5 +1,5 @@
 import axios from "axios"
 
 export const baseAPI = axios.create({
-    baseURL:"http://localhost:5050"
+    baseURL:"https://books-library-management-app-backend.onrender.com"
 })
